@@ -60,7 +60,7 @@ a:focus{
             overflow: hidden;
         }
         #logo {
-            font: bold 38px/1.12 "Times New Roman", Georgia, Times, sans-serif;
+            font: bold 45px/1.12 "Times New Roman", Georgia, Times, sans-serif;
             color: #555;
             span, &:hover {
                 color: #777;
@@ -176,11 +176,18 @@ a:focus{
 
 .post {
     padding: 25px 0 15px;
+    //border-bottom: 3px solid #eee;
     .post-title {
         margin: 0;
+        //border-bottom: 1px solid #eee;
+
+        /* margin: 40px 10px 20px 0; */
+        /* padding-left: 10px; */
+        /* border-left: 6px solid #2ca6cb; */
+
         color: #555;
         text-align: left;
-        font: bold 25px/1.1 "ff-tisa-web-pro", Cambria, "Times New Roman", Georgia, Times, sans-serif;
+        font: bold 30px/1.1 "ff-tisa-web-pro", Cambria, "Times New Roman", Georgia, Times, sans-serif;
         a {
             color: #555;
         }
@@ -217,8 +224,11 @@ a:focus{
         padding-top: 20px;
         text-align: justify;
         h2 {
-            margin: 1.4em 0 1.1em;
-            border-bottom: 1px solid #eee;
+            /* margin: 1.4em 0 1.1em; */
+            /* border-bottom: 1px solid #eee; */
+            margin: 40px 10px 20px 0; 
+            padding-left: 9px;
+            border-left: 6px solid #ff7e79;
         }
         h3 {
             margin: 1.4em 0 1.1em;
